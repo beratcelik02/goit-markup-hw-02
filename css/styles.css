@@ -24,12 +24,17 @@ body {
   list-style: none;
 }
 
-.header > nav > ul > li {
+.header > nav > ul > li > a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
+}
+
+.header > nav > ul > li > a:hover {
+  color: #404bbf;
 }
 
 .header > ul > li > a {
@@ -41,26 +46,41 @@ body {
   text-decoration: none;
 }
 
+.header > ul > li > a:hover {
+  color: #404bbf;
+}
+
 .main > .section1 {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
 }
 
 .main > .section1 > h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
+  height: 120px;
+  line-height: 60px;
+  letter-spacing: 2%;
   text-align: center;
   color: #fff;
 }
 
 .main > .section1 > button {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+  line-height: 24px;
+  letter-spacing: 4%;
+  text-align: center;
   color: #fff;
+}
+
+.main > .section1 > button:hover {
+  background-color: #404bbf;
 }
 
 .main > .section2 > ul > li {
