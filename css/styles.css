@@ -39,10 +39,15 @@ body {
   text-decoration: none;
 }
 
+.main > .section1 {
+  background-color: #2e2f42;
+}
+
 .main > .section1 > h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 60px;
+  letter-spacing: 2%;
   color: #fff;
 }
 
@@ -69,6 +74,9 @@ body {
   color: #434455;
 }
 
+.main > .section3 {
+  background-color: #f4f4fd;
+}
 .main > .section3 > h2 {
   font-weight: 700;
   font-size: 36px;
@@ -128,4 +136,8 @@ body {
 
 .studio-footer {
   color: #f4f4fd;
+}
+
+footer {
+  background-color: #2e2f42;
 }
